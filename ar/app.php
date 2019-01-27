@@ -85,7 +85,7 @@ return [
     'found'                              => 'وجدت',
     'frequency'                          => 'التردد',
     'forgot_password'                    => 'نسيت كلمة السر؟',
-    'fullname'                           => 'Fullname',
+    'fullname'                           => 'Full Name',
     'get_started'                        => 'إبدأ',
     'general_settings'                   => 'إعدادات عامة',
     'help'                               => 'مساعدة',
