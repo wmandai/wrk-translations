@@ -2,327 +2,328 @@
 
 return [
 
-    'invoices' => [
-        'viewed' => [
-            'subject' => 'Invoice Viewed',
-            'body' => 'Invoice :code has been viewed by client'
-        ],
-        'sending' => [
-            'subject' => 'New Invoice from :name',
-            'greeting' => 'Dear :name,',
-            'body' => ':name sent you an invoice (:code) for  :balance  that is due on  :date '
-        ],
-        'reminder' => [
-            'reminder1' => [
-                'subject' => 'Reminder: You\'ve got a payment that is overdue',
-                'greeting' => 'Hey :name,',
-                'body' => 'This is a friendly reminder to let you know that invoice :code is past due.  
-                            If you have already sent the payment, please disregard this message,if not, we would appreciate your prompt attention to this matter.'
-            ],
-            'reminder2' => [
-                'subject' => 'Reminder: You\'ve got a payment that is overdue',
-                'greeting' => 'Hey :name,',
-                'body' => 'Our records show that we haven’t yet received payment of :balance for Invoice :invoice , which is overdue since  :date.  
-                    If the payment has already been sent, please disregard this notice. And if you’ve lost this invoice, please let me know, and I’d be happy to send you another copy.'
-            ],
-            'reminder3' => [
-                'subject' => 'Final [:invoice] Reminder',
-                'greeting' => 'Hey :name,',
-                'body' => 'This is another reminder that we are yet to receive the :balance owed on Invoice :invoice which was due for payment on  :date.  
-                            Please be aware that, as per our terms, We may charge you additional late fee on payment received past invoice due date.  
-                            Please reach out if you have any questions on this payment. Otherwise, please organize for settlement of this invoice immediately.'
-            ]
-            
-        ],
-        'expiring' => [
-            'greeting' => 'Hey :name,',
-            'subject' => 'Your payment to :company is due in :days days',
-            'body' => 'Just a friendly reminder that we sent you an invoice **:code** on **:date**, and it’s due in **:days days**.  
-                       You can click through and pay quickly with a credit card, mail a check, or contact us.',
-            'footer' => 'Thank you in advance for a timely payment, it means alot. Let us know if you have any questions about the invoice.'
-        ],
-    ],
-    'estimates' => [
-        'sending' => [
-            'subject' => 'New Estimate from :company [:estimate]',
-            'greeting' => 'Dear :name,',
-            'body' => 'We have created an estimate for you in the amount of :amount for you to review. If you have any questions, feel free to contact us. '
-        ],
-        'accepted' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Estimate Approved',
-            'body' => ':client accepted your estimate :code for :amount 🎉🎉'
-        ],
-        'declined' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Estimate Declined',
-            'body' => 'Estimate :code has been declined by client'
-        ],
-        'viewed' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Estimate Viewed',
-            'body' => 'Estimate :code has been viewed by client'
-        ],
-        'expiring' => [
-            'greeting' => 'Hello :name,',
-            'subject' => 'Estimate Reminder',
-            'body' => 'Estimate :code will expire in :days day(s) - :date'
-        ],
+	'invoices' => [
+		'viewed' => [
+			'subject' => 'Fatura Visualizada',
+			'body' => 'A Fatura :code foi visualizada pelo cliente'
+		],
+		'sending' => [
+			'subject' => 'Nova fatura de :name',
+			'greeting' => 'Prezado(a) :name,',
+			'body' => ':name enviou uma fatura (:code) com o valor de :balance  com a data de vencimento em :date '
+		],
+		'reminder' => [
+			'reminder1' => [
+				'subject' => 'Lembrete: Você tem uma fatura e atraso',
+				'greeting' => 'Olá :name,',
+				'body' => 'Este é um lembrete amigável para você saber que a fatura :code está em atraso.
+				Se você já efetuou o pagamento, desconsidere esta mensagem. Caso contrário, agradecemos sua atenção imediata a esse assunto.'
+			],
+			'reminder2' => [
+				'subject' => 'Segundo Lembrete da fatura [:invoice]',
+				'greeting' => 'Olá :name,',
+				'body' => 'Nossos registros mostram que ainda não recebemos o pagamento da fatura :invoice com o valor de :balance, que está vencida desde :date.
+				Se o pagamento já tiver sido enviado, desconsidere este aviso. E se você perdeu a fatura, avise-nos e teremos prazer em enviar outra cópia para você.'
+			],
+			'reminder3' => [
+				'subject' => 'Último Lembrete da fatura [:invoice]',
+				'greeting' => 'Olá :name,',
+				'body' => 'Este é o último lembrete de cobrança para a fatura :invoice no valor de :balanceque está vencida desde o dia :date.
+				Tenha em atenção que, de acordo com os nossos termos, poderemos cobrar-lhe uma taxa de atraso adicional no pagamento recebido após a data de vencimento da fatura, ou até mesmo a suspensão dos serviços prestados.
+				Entre em contato se você tiver alguma dúvida sobre esse pagamento. Caso contrário, por favor, organize para liquidação desta fatura imediatamente.'
+			]
 
-    ],
-    'payments' => [
-        'thankyou' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Payment Received',
-            'body' => 'Thank you for your payment of :amount on :date.',
-            'footer' => 'The Payment has been applied to the Invoice Successfully.'
-        ],
-        'received' => [
-            'greeting' => 'Hey :name,',
-            'subject' => 'Payment Received',
-            'body' => 'You have received payment of :amount on :date for invoice :code',
-            'footer' => 'The Payment has been applied to the Invoice Successfully.'
-        ]
-    ],
-    'deals' => [
-        'created' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'New Deal Created',
-            'body' => 'Deal :title has been created',
-        ],
-        'updated' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Deal Updated',
-            'body' => 'Deal :title was updated by :user',
-        ],
-        'won' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Deal Won',
-            'body' => 'Deal :title has been won by :user 🎉🎉',
-        ],
-        'lost' => [
-            'subject' => 'Deal Lost',
-            'body' => 'Deal :title has been lost 👎',
-        ],
-        'commented' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Deal Comment',
-            'body' => 'Deal :title has received a new comment',
-            'footer' => ''
-        ],
-    ],
-    'leads' => [
-        'converted' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Lead Converted to Customer',
-            'body' => 'Lead :name has been converted to customer 🎉🎉',
-        ],
-        'assigned' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Lead Assigned',
-            'body' => 'Lead :name has been assigned to you.',
-        ],
-        'commented' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'New Lead Comment',
-            'body' => 'Lead :name has received a new comment'
-        ]
-    ],
-    'credits' => [
-        'sending' => [
-            'subject' => 'New Credit Note from :company',
-            'greeting' => 'Dear Customer,',
-            'body' => 'New credit note (:code) created.'
-        ]
-    ],
-    'contracts' => [
-        'reminder' => [
-            'subject' => 'Review Contract for :title',
-            'greeting' => 'Contract :title',
-            'body' => 'Here is the contract for review. Let us know if you have any questions.',
-            'footer' => 'Looking forward to working with you.'
-        ],
-        'viewed' => [
-            'subject' => 'Contract Viewed by Client',
-            'body' => 'Contract :title has been viewed by client'
-        ],
-        'signed' => [
-            'subject' => 'Contract Signed',
-            'body' => 'Contract :title has been signed',
-            'footer' => ''
-        ],
-        'rejected' => [
-            'subject' => 'Contract Rejected',
-            'body' => 'Contract :title has been marked as rejected',
-            'footer' => ''
-        ],
-        'expiring' => [
-            'greeting' => 'Hello :name,',
-            'subject' => 'Contract Reminder',
-            'body' => 'Contract :title will expire in :days day(s) - :date'
-        ]
-    ],
-    'projects' => [
-        'survey' => [
-            'subject' => 'Feedback Request',
-            'greeting' => 'Hello :name,',
-            'heading' => 'How would you rate us?',
-            'body' => 'Please tell us about your experience on project :project.  
-                        Your feedback help us create a better experience for you and for all our customers.',
-            'footer' => 'Thanks,'
-        ],
-        'commented' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Comment Received',
-            'body' => 'Project :name has received a new comment'
-        ]
-    ],
-    'tasks' => [
-        'reminder' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Task Reminder',
-            'body' => 'Task :name will be overdue on :date'
-        ],
-        'commented' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Comment Received',
-            'body' => 'Task :name has received a new comment'
-        ]
-    ],
-    'tickets' => [
-        'created' => [
-            'greeting' => 'Hi :name,',
-            'subject' => '[:code] Re: :subject',
-            'body' => 'A support ticket has been created in our system on your behalf. To manage or update your ticket, click below: ',
-            'footer' => 'Thank you for choosing :company'
-        ],
-        'opened' => [
-            'greeting' => 'Hi :name,',
-            'subject' => '[:code] Re: :subject',
-            'body' => 'Ticket :subject has been opened.  
-                        You can view the ticket using the link below;'
-        ],
-        'replied' => [
-            'greeting' => 'Hi :name,',
-            'subject' => '[:code] Re: :subject',
-            'body' => 'Ticket :code has received a new response.',
-            'footer' => 'To update your ticket, please reply directly to this e-mail or visit:'
-        ],
-        'assigned' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Ticket Assigned',
-            'body' => 'A new ticket :subject has been assigned to you.  
-                        Follow the link below to view the ticket.',
-            'footer' => 'Thank You,'
-        ],
-        'closed' => [
-            'greeting' => 'Hi :name,',
-            'subject' => '[:code] Re: :subject',
-            'body' => 'Ticket :subject has been marked as closed.     
-                    If you feel the incident is not resolved, you can reply to this email or reopen the incident.',
-            'footer' => 'Thank You,'
-        ],
-        'survey' => [
-            'greeting' => 'Hello :name,',
-            'subject' => 'Request #:code',
-            'heading' => 'How would you rate the support you received?',
-            'body' => 'At :company we love to hear what you think of our customer service.  
-                        Please take a moment to answer one simple question by clicking link below:',
-            'footer' => 'Thanks,'
-        ],
-        'answer' => [
-            'subject' => '[:code] Re: :subject',
-            'body' => 'Do any of this articles answer your question?',
-            'footer' => 'Thanks,'
-        ]
-    ],
-    'events' => [
-        'alert' => [
-            'subject' => 'Event Reminder',
-            'body' => 'Reminder for event :name (:venue) on :date'
-        ]
-    ],
-    'knowledgebase' => [
-        'commented' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Article Comment',
-            'body' => 'New comment received in article :subject'
-        ]
-    ],
-    'subscriptions' => [
-        'sending' => [
-            'greeting' => 'Hi :contact,',
-            'subject' => 'Subscriptions Request',
-            'body' => 'We have prepared the subscription :name for your company. Click the button below to review the subscription and subscribe.',
-            'footer' => 'Best Regards'
-        ]
-    ],
-    'appointments' => [
-        'alert' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Appointment Alert',
-            'body' => 'This is a reminder that you have an appointment :name on :time at :venue'
-        ]
-    ],
-    'announcements' => [
-        'alert' => [
-            'greeting' => 'Hey :name,',
-            'subject' => ':subject',
-            'body' => ':message'
-        ]
-    ],
-    'auth' => [
-        'verification' => [
-            'greeting' => 'Hey :name,',
-            'subject' => 'Verify Email Address',
-            'button' => 'Verify Email',
-            'body' => 'Thanks for registering for an account on :company! Before we get started, we just need to confirm that this is you. Click below to verify your email address:',
-            'footer' => 'If you did not create an account, no further action is required.'
-        ]
-    ],
-    'calls' => [
-        'alert' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Call Alert',
-            'body' => 'Reminder for call :subject'
-        ]
-    ],
-    'emails' => [
-        'opened' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Email Opened',
-            'body' => 'Email :subject was opened by :user'
-        ]
-    ],
-    'messages' => [
-        'received' => [
-            'greeting' => 'Hey :name,',
-            'subject' => 'New message received',
-            'body' => ':sender has sent you a message'
-        ]
-    ],
-    'todos' => [
-        'expiring' => [
-            'greeting' => 'Hi :name,',
-            'subject' => 'Todo Reminder',
-            'body' => 'Todo :subject will be overdue soon'
-        ]
-    ],
-    'issues' => [
-        'created' => [
-            'greeting' => 'Hi :name,',
-            'subject' => '[:code] :subject',
-            'body' => 'Issue :subject (:code) has been created'
-        ],
-        'changed' => [
-            'greeting' => 'Hi :name,',
-            'subject' => '[:code] :subject',
-            'body' => 'Issue :subject (:code) has been modified'
-        ],
-        'commented' => [
-            'greeting' => 'Hi :name,',
-            'subject' => '[:code] :subject',
-            'body' => 'Issue :subject (:code) has received a new comment'
-        ]
-    ],
+		],
+		'expiring' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Seu pagamento para a empresa :company está atrasado a :days dias',
+			'body' => 'Apenas um lembrete de que lhe enviamos uma fatura **:code** no dia **:date**, que venceu a **:days dias**.
+			Você pode clicar e pagar rapidamente com um cartão de crédito, fazer uma trasferência ou entrar em contato conosco.',
+			'footer' => 'Obrigado antecipadamente por um pagamento que será realizado, isso significa muito. Deixe-nos saber se você tem alguma dúvida sobre a fatura.'
+		],
+	],
+	'estimates' => [
+		'sending' => [
+			'subject' => 'Novo Orçamento de :company código do orçamento [:estimate]',
+			'greeting' => 'Prezado(a) :name,',
+			'body' => 'Criamos um orçamento para você no valor de :amount a ser revisado. Se você tiver alguma dúvida, não hesite em contactar-nos. '
+		],
+		'accepted' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Orçamento Aprovado',
+			'body' => ':client aceitou seu orçamento :code no valor de :amount 🎉🎉'
+		],
+		'declined' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Orçamento Não aprovado',
+			'body' => 'O Orçamento :code **não** foi aceito poelo cliente, entre em contato para uma renegociação.'
+		],
+		'viewed' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Orçamento Visualizado',
+			'body' => 'O Orçamento :code foi visualizado pelo cliente'
+		],
+		'expiring' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Lembrete de Orçamento',
+			'body' => 'O Orçamento :code vai expirar em :days dia(s) - :date'
+		],
+
+	],
+	'payments' => [
+		'thankyou' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Pagamento Recebido',
+			'body' => 'Obrigado pelo pagamento de :amount em :date.',
+			'footer' => 'O pagamento foi aplicado à fatura com sucesso.'
+		],
+		'received' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Pagamento Recebido',
+			'body' => 'Você recebeu um pagamento de :amount em :date paraa fatura :code',
+			'footer' => 'O pagamento foi aplicado à fatura com sucesso.'
+		]
+	],
+	'deals' => [
+		'created' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Nova oportunidade criada',
+			'body' => 'A Oportunidade :title foi criada',
+		],
+		'updated' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Oportunidade Atualizada',
+			'body' => 'A Oportunidade :title foi atualizada por :user',
+		],
+		'won' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Nova Oportunidade',
+			'body' => 'Nova oportunidade :title foi criada por :user 🎉🎉',
+		],
+		'lost' => [
+			'subject' => 'Perda de Oportunidade',
+			'body' => 'A Oportunidade :title foi perdida 👎',
+		],
+		'commented' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Comentário em uma Oportunidade',
+			'body' => 'A Oportunidade :title recebeu um novo comentário',
+			'footer' => ''
+		],
+	],
+	'leads' => [
+		'converted' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Lead convertido em cliente',
+			'body' => 'O Lead :name foi convertido em cliente 🎉🎉',
+		],
+		'assigned' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Lead atribuído',
+			'body' => 'O Lead :name foi atribuído à você',
+		],
+		'commented' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Novo comentário de lead',
+			'body' => 'O Lead :name recebeu um novo comentário'
+		]
+	],
+	'credits' => [
+		'sending' => [
+			'subject' => 'Nova nota de crédito para :company',
+			'greeting' => 'Prezado cliente,',
+			'body' => 'Nova nota de crédito (:code) criada.'
+		]
+	],
+	'contracts' => [
+		'reminder' => [
+			'subject' => 'Rever Contrato para :title',
+			'greeting' => 'Contrato :title',
+			'body' => 'Aqui está o contrato para revisão. Deixe-nos saber se você tiver alguma dúvida.',
+			'footer' => 'Ansioso para trabalhar com você.'
+		],
+		'viewed' => [
+			'subject' => 'Contrato visualizado pelo Cliente',
+			'body' => 'Contrato :title foi visualizado pelo cliente'
+		],
+		'signed' => [
+			'subject' => 'Contrato Asinados',
+			'body' => 'O contrato :title foi assinado',
+			'footer' => ''
+		],
+		'rejected' => [
+			'subject' => 'Contrato Rejeitado',
+			'body' => 'Contrato :title foi marcado como rejeitado',
+			'footer' => ''
+		],
+		'expiring' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Lembrete de contrato',
+			'body' => 'O Contrato :title exporará em :days dia(s) - :date'
+		]
+	],
+	'projects' => [
+		'survey' => [
+			'subject' => 'Pedido de feedback',
+			'greeting' => 'Olá :name,',
+			'heading' => 'Como você avaliaria a gente?',
+			'body' => 'Por favor, conte-nos sobre sua experiência no projeto :project.
+			Seus comentários nos ajudam a criar uma experiência melhor para você e para todos os nossos clientes.',
+			'footer' => 'Obrigado,'
+		],
+		'commented' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Comentário Recebido',
+			'body' => 'O Projeto :name recebeu um novo comentário'
+		]
+	],
+	'tasks' => [
+		'reminder' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Lembrete de Tarefa',
+			'body' => 'Tarefa :name vencerá no dia :date'
+		],
+		'commented' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Comentário Recebido',
+			'body' => 'Tarefa :name recebeu um novo comentário'
+		]
+	],
+	'tickets' => [
+		'created' => [
+			'greeting' => 'Olá :name,',
+			'subject' => '[:code] Re: :subject',
+			'body' => 'Um ticket de suporte foi criado em nosso sistema em seu nome. Para gerenciar ou atualizar seu ticket, clique abaixo: ',
+			'footer' => 'Obrigado por nos escolher :company'
+		],
+		'opened' => [
+			'greeting' => 'Olá :name,',
+			'subject' => '[:code] Re: :subject',
+			'body' => 'O Ticket :subject foi aberto.
+			Você pode ver o ticket usando o link abaixo;'
+		],
+		'replied' => [
+			'greeting' => 'Olá :name,',
+			'subject' => '[:code] Re: :subject',
+			'body' => 'O Ticket :code recebeu uma nova resposta.',
+			'footer' => 'Para atualizar seu ticket, responda diretamente a este e-mail ou visite:'
+		],
+		'assigned' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Ticket Atribuído',
+			'body' => 'Um novo ticket :subject foi atribuído à você.
+			Clique no link abaixo para ver o ticket.',
+			'footer' => 'Obrigado,'
+		],
+		'closed' => [
+			'greeting' => 'Olá :name,',
+			'subject' => '[:code] Re: :subject',
+			'body' => 'O Ticket :subject foi marcado como fechado.
+			Se você achar que o incidente não foi resolvido, responda a este e-mail ou reabra o incidente.',
+			'footer' => 'Obrigado,'
+		],
+		'survey' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Avaliação do suporte #:code',
+			'heading' => 'Como você avaliaria o suporte recebido?',
+			'body' => 'A Equipe da :company ama ouvir o que você pensa do nosso serviço ao cliente.
+			Por favor, dedique um momento para responder uma pergunta simples clicando no link abaixo:',
+			'footer' => 'Obrigado,'
+		],
+		'answer' => [
+			'subject' => '[:code] Re: :subject',
+			'body' => 'Algum desses artigos responde à sua pergunta?',
+			'footer' => 'Obrigado,'
+		]
+	],
+	'events' => [
+		'alert' => [
+			'subject' => 'Lembrete de Evento',
+			'body' => 'Lembrete para o Evento :name (:venue) em :date'
+		]
+	],
+	'knowledgebase' => [
+		'commented' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Comentário do artigo',
+			'body' => 'Novo comentário recebido no artigo :subject'
+		]
+	],
+	'subscriptions' => [
+		'sending' => [
+			'greeting' => 'Olá :contact,',
+			'subject' => 'Solicitação de Assinaturas',
+			'body' => 'Nós preparamos a assinatura :name para sua empresa.
+			Clique no botão abaixo para revisar a assinatura e se inscrever.',
+			'footer' => 'Atenciosamente'
+		]
+	],
+	'appointments' => [
+		'alert' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Alerta de Compromisso',
+			'body' => 'Este é um lembrete de que você tem um compromisso :name às :time em :venue'
+		]
+	],
+	'announcements' => [
+		'alert' => [
+			'greeting' => 'Olá :name,',
+			'subject' => ':subject',
+			'body' => ':message'
+		]
+	],
+	'auth' => [
+		'verification' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Verificação de endereço de e-mail',
+			'button' => 'Verificar e-mail',
+			'body' => 'Obrigado por se registrar para uma conta em :company! Antes de começarmos, precisamos apenas confirmar que é você. Clique abaixo para verificar seu endereço de e-mail:',
+			'footer' => 'Se você não criou uma conta, nenhuma outra ação será necessária.'
+		]
+	],
+	'calls' => [
+		'alert' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Alerta de Chamada',
+			'body' => 'Lembrete para chamada :subject'
+		]
+	],
+	'emails' => [
+		'opened' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'E-mail Lido',
+			'body' => 'E-mail :subject foi lido por :user'
+		]
+	],
+	'messages' => [
+		'received' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Nova mensagem recebida',
+			'body' => ':sender lhe enviou uma mensagem'
+		]
+	],
+	'todos' => [
+		'expiring' => [
+			'greeting' => 'Olá :name,',
+			'subject' => 'Lembrete de Afazeres',
+			'body' => 'O item :subject estará atrasado em breve'
+		]
+	],
+	'issues' => [
+		'created' => [
+			'greeting' => 'Olá :name,',
+			'subject' => '[:code] :subject',
+			'body' => 'Bug :subject (:code) foi reportado'
+		],
+		'changed' => [
+			'greeting' => 'Olá :name,',
+			'subject' => '[:code] :subject',
+			'body' => 'Bug :subject (:code) foi alterado'
+		],
+		'commented' => [
+			'greeting' => 'Olá :name,',
+			'subject' => '[:code] :subject',
+			'body' => 'Bug :subject (:code) recebeu um novo comentário'
+		]
+	],
 ];
