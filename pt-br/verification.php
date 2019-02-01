@@ -1,13 +1,11 @@
 <?php
-
 return [
+	'verification_email_subject' => 'Verificação de Conta',
 
-    'verification_email_subject' => 'Account Verification',
-
-    // error view
-    'verification_error_header' => 'Verification failed',
-    'verification_error_message' => 'Your account could not be verified.',
-    'verification_error_back_button' => 'Back',
-    'resend' => 'Resend'
+	// error view
+	'verification_error_header' => 'Falha na verificação',
+	'verification_error_message' => 'Sua conta não pôde ser verificada.',
+	'verification_error_back_button' => 'Voltar',
+	'resend' => 'Reenviar'
 
 ];
