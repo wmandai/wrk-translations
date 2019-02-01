@@ -165,7 +165,7 @@ return [
     'public'                             => 'Público',
     'qty'                                => 'Qtd',
     'quantity'                           => 'Quantidade',
-    'quick_links'                        => 'links Rápidos',
+    'quick_links'                        => 'Links Rápidos',
     'recurring'                          => 'Recorrente',
     'received_amount'                    => 'Valor recebido',
     'received_from'                      => 'Recebido De',
