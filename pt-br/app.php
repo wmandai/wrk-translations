@@ -827,6 +827,6 @@ return [
     'contract_duplicate_message'         => 'Contrato :title para :client será duplicada',
     'send_contract_message'              => 'Lembrete de contrato será enviado para :email',
     'invoice_duplicate_message'          => 'Fatura :code de saldo :balance será duplicada',
-    'invoicing' => 'Invoicing',
-    'ticketing' => 'Ticketing'
+    'invoicing' => 'Faturamento',
+    'ticketing' => 'Tikets de Suporte'
 ];
