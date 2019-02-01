@@ -14,26 +14,33 @@ return [
         ],
         'reminder' => [
             'reminder1' => [
-                'subject' => 'Invoice :code Reminder',
-                'greeting' => 'Dear :name,',
+                'subject' => 'Reminder: You\'ve got a payment that is overdue',
+                'greeting' => 'Hey :name,',
                 'body' => 'This is a friendly reminder to let you know that invoice :code is past due.  
                             If you have already sent the payment, please disregard this message,if not, we would appreciate your prompt attention to this matter.'
             ],
             'reminder2' => [
-                'subject' => 'Invoice [:invoice] Reminder',
-                'greeting' => 'Dear :name,',
+                'subject' => 'Reminder: You\'ve got a payment that is overdue',
+                'greeting' => 'Hey :name,',
                 'body' => 'Our records show that we haven’t yet received payment of :balance for Invoice :invoice , which is overdue since  :date.  
                     If the payment has already been sent, please disregard this notice. And if you’ve lost this invoice, please let me know, and I’d be happy to send you another copy.'
             ],
             'reminder3' => [
                 'subject' => 'Final [:invoice] Reminder',
-                'greeting' => 'Dear :name,',
+                'greeting' => 'Hey :name,',
                 'body' => 'This is another reminder that we are yet to receive the :balance owed on Invoice :invoice which was due for payment on  :date.  
                             Please be aware that, as per our terms, We may charge you additional late fee on payment received past invoice due date.  
                             Please reach out if you have any questions on this payment. Otherwise, please organize for settlement of this invoice immediately.'
             ]
             
-        ]
+        ],
+        'expiring' => [
+            'greeting' => 'Hey :name,',
+            'subject' => 'Your payment to :company is due in :days days',
+            'body' => 'Just a friendly reminder that we sent you an invoice **:code** on **:date**, and it’s due in **:days days**.  
+                       You can click through and pay quickly with a credit card, mail a check, or contact us.',
+            'footer' => 'Thank you in advance for a timely payment, it means alot. Let us know if you have any questions about the invoice.'
+        ],
     ],
     'estimates' => [
         'sending' => [
@@ -44,7 +51,7 @@ return [
         'accepted' => [
             'greeting' => 'Hi :name,',
             'subject' => 'Estimate Approved',
-            'body' => 'Estimate :code has been approved by client 🎉🎉'
+            'body' => ':client accepted your estimate :code for :amount 🎉🎉'
         ],
         'declined' => [
             'greeting' => 'Hi :name,',
@@ -192,7 +199,8 @@ return [
         'opened' => [
             'greeting' => 'Hi :name,',
             'subject' => '[:code] Re: :subject',
-            'body' => 'Ticket :subject has been opened.'
+            'body' => 'Ticket :subject has been opened.  
+                        You can view the ticket using the link below;'
         ],
         'replied' => [
             'greeting' => 'Hi :name,',
@@ -203,12 +211,13 @@ return [
         'assigned' => [
             'greeting' => 'Hi :name,',
             'subject' => 'Ticket Assigned',
-            'body' => 'A new ticket :subject has been assigned to you. Follow the link below to view the ticket.',
+            'body' => 'A new ticket :subject has been assigned to you.  
+                        Follow the link below to view the ticket.',
             'footer' => 'Thank You,'
         ],
         'closed' => [
             'greeting' => 'Hi :name,',
-            'subject' => 'Ticket :code closed',
+            'subject' => '[:code] Re: :subject',
             'body' => 'Ticket :subject has been marked as closed.     
                     If you feel the incident is not resolved, you can reply to this email or reopen the incident.',
             'footer' => 'Thank You,'
@@ -222,7 +231,7 @@ return [
             'footer' => 'Thanks,'
         ],
         'answer' => [
-            'subject' => 'Request #:code - :subject',
+            'subject' => '[:code] Re: :subject',
             'body' => 'Do any of this articles answer your question?',
             'footer' => 'Thanks,'
         ]
@@ -257,7 +266,7 @@ return [
     ],
     'announcements' => [
         'alert' => [
-            'greeting' => 'Hi :name,',
+            'greeting' => 'Hey :name,',
             'subject' => ':subject',
             'body' => ':message'
         ]
@@ -282,7 +291,14 @@ return [
         'opened' => [
             'greeting' => 'Hi :name,',
             'subject' => 'Email Opened',
-            'body' => 'Email :subject was opened by user'
+            'body' => 'Email :subject was opened by :user'
+        ]
+    ],
+    'messages' => [
+        'received' => [
+            'greeting' => 'Hey :name,',
+            'subject' => 'New message received',
+            'body' => ':sender has sent you a message'
         ]
     ],
     'todos' => [
