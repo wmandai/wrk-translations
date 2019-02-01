@@ -827,4 +827,6 @@ return [
     'contract_duplicate_message'         => 'Contract :title for client :client will be duplicated',
     'send_contract_message'              => 'Contract reminder will be sent to :email',
     'invoice_duplicate_message'          => 'Invoice :code with balance :balance will be duplicated',
+    'invoicing'                          => 'Invoicing',
+    'ticketing'                          => 'Ticketing',
 ];
