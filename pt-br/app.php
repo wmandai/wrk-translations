@@ -30,7 +30,7 @@ return [
     'balance_due'                        => 'Saldo vencido',
     'bill_to'                            => 'Pagar a',
     'bugs'                               => 'Bugs',
-    'reporter'                           => 'Reportar',
+    'reporter'                           => 'Reportado por',
     'chart'                              => 'Gráfico',
     'city'                               => 'Cidade',
     'client'                             => 'Cliente',
