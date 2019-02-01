@@ -811,5 +811,8 @@ return [
     'remind_invoices_before' => 'Upcoming reminders',
     'remind_estimates_before' => 'Expiry Reminder',
     'ticket_due_after' => 'Ticket Due Days',
-    'autoremind_estimates' => 'Auto Remind Estimates'
+    'autoremind_estimates' => 'Auto Remind Estimates',
+    'contract_duplicate_message' => 'Contract :title for client :client will be duplicated',
+    'send_contract_message' => 'Contract reminder will be sent to :email',
+    'invoice_duplicate_message' => 'Invoice :code with balance :balance will be duplicated'
 ];
