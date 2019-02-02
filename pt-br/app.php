@@ -846,4 +846,11 @@ return [
     'add_noncompete'                             => 'Adicionar cláusula de obrigação de exclusividade',
     'limit_revisions'                            => 'Número limite de solicitações de revisão?',
     'add_sexual_harrassment'                     => 'Adicionar cláusula para prevenção de assédio sexual?',
+    'auto_invoice' => 'Auto Invoice',
+    'default_deal_owner' => 'Default Deal Owner',
+    'default_pipeline' => 'Default Pipeline',
+    'default_stage' => 'Default Stage',
+    'default_sales_agent' => 'Default Sales Agent',
+    'enable_double_optin' => 'Enable Double Opt-in',
+    'auto_delete' => 'Auto Delete',
 ];

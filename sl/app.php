@@ -845,5 +845,12 @@ return [
     'right_to_include_in_portfolio' => 'Right to include in Portfolio',
     'add_noncompete' => 'Add Non-Compete',
     'limit_revisions' => 'Limit number of revision requests?',
-    'add_sexual_harrassment' => 'Add sexual harassment clause?'
+    'add_sexual_harrassment' => 'Add sexual harassment clause?',
+    'auto_invoice' => 'Auto Invoice',
+    'default_deal_owner' => 'Default Deal Owner',
+    'default_pipeline' => 'Default Pipeline',
+    'default_stage' => 'Default Stage',
+    'default_sales_agent' => 'Default Sales Agent',
+    'enable_double_optin' => 'Enable Double Opt-in',
+    'auto_delete' => 'Auto Delete',
 ];
