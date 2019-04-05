@@ -11,7 +11,7 @@ return [
     'maintenance_mode_deactivated'   => 'Maintenance mode deactivated',
     'database_migrated'              => 'Database migrations successful',
     'system_updated_to_version'      => 'System Updated to version',
-    'error_during_update'            => 'ERROR DURING UPDATE (!!check the update archive!!) --TRY to restore OLD status ........... ',
+    'error_during_update'            => 'Error during update (!!check the update archive!!) --TRY to restore OLD status ........... ',
     'changelog'                      => 'Changelog',
     'directory'                      => 'Directory',
     'file'                           => 'File',
