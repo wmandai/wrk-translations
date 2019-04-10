@@ -853,4 +853,6 @@ return [
     'default_sales_agent'                        => 'Default Sales Agent',
     'enable_double_optin'                        => 'Enable Double Opt-in',
     'auto_delete'                                => 'Auto Delete',
+    'schedule_update'                            => 'Schedule Update',
+    'test_email'                                 => 'Test Email',
 ];

@@ -847,4 +847,6 @@ return [
     'enable_holiday_mode'                        => 'Enable holiday mode',
     'disable_holiday_mode'                       => 'Disable holiday mode',
     'next_followup'                              => 'Next follow-up',
+    'schedule_update'                            => 'Schedule Update',
+    'test_email'                                 => 'Test Email',
 ];

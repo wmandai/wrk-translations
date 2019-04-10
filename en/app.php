@@ -397,7 +397,7 @@ return [
     'installed'                                  => 'Installed',
     'enabled'                                    => 'Enabled',
     'disabled'                                   => 'Disabled',
-    'check_for_updates'                          => 'Check for Updates',
+    'check_for_updates'                          => 'Check Updates',
     'no_updates_found'                           => 'No updates found',
     'backup_now'                                 => 'Backup Now',
     'no_backup_found'                            => 'No backup files found',
@@ -847,5 +847,7 @@ return [
     'enable_holiday_mode'                        => 'Enable holiday mode',
     'disable_holiday_mode'                       => 'Disable holiday mode',
     'next_followup'                              => 'Next follow-up',
-    'disable_ticket_feedback'                    => 'Disable feedback request for this ticket',
+    'disable_feedback'                           => 'Disable feedback request',
+    'schedule_update'                            => 'Schedule Update',
+    'test_email'                                 => 'Test Email',
 ];

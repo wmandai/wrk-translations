@@ -68,4 +68,5 @@ return [
     'activity_invoice_polite_reminder' => 'Polite reminder for invoice :value1 sent to :value2',
     'activity_invoice_firm_reminder'   => 'Second reminder for invoice :value1 sent to :value2',
     'activity_invoice_final_reminder'  => 'Final reminder for invoice :value1 sent to :value2',
+    'activity_delete_ticket'           => 'Ticket :value1 was deleted',
 ];
