@@ -756,7 +756,7 @@ return [
     'deadline'                                   => 'Deadline',
     'related_articles'                           => 'Related Articles',
     'views'                                      => 'Views',
-    'response_time'                              => 'Response Time',
+    'response_time'                              => 'Avg Response',
     'action_completed'                           => 'Action completed successfully',
     'system_info'                                => 'System Info',
     'symbol_left'                                => 'Symbol Left',
