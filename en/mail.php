@@ -22,13 +22,13 @@ return [
             'reminder2' => [
                 'subject'  => 'Reminder: You\'ve got a payment that is overdue',
                 'greeting' => 'Hey :name,',
-                'body'     => 'Our records show that we haven’t yet received payment of :balance for Invoice :invoice , which is overdue since  :date.
+                'body'     => 'Our records show that we haven’t yet received payment of :balance for Invoice :invoice , which is overdue since :date.
                     If the payment has already been sent, please disregard this notice. And if you’ve lost this invoice, please let me know, and I’d be happy to send you another copy.',
             ],
             'reminder3' => [
                 'subject'  => 'Final [:code] Reminder',
                 'greeting' => 'Hey :name,',
-                'body'     => 'This is another reminder that we are yet to receive the :balance owed on Invoice :code which was due for payment on  :date.
+                'body'     => 'This is another reminder that we are yet to receive the :balance owed on Invoice :code which was due for payment on :date.
                             Please be aware that, as per our terms, We may charge you additional late fee on payment received past invoice due date.
                             Please reach out if you have any questions on this payment. Otherwise, please organize for settlement of this invoice immediately.  ',
             ],

@@ -847,5 +847,6 @@ return [
     'auto_delete'                                => 'Auto Delete',
     'schedule_update'                            => 'Schedule Update',
     'test_email'                                 => 'Test Email',
+    'invoice_cancelled_successfully'             => 'Invoice Cancelled successfully',
 
 ];

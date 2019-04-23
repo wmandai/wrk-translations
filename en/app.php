@@ -603,7 +603,7 @@ return [
     'mandatory_columns'                          => 'Mandatory Columns',
     'changes_saved_successful'                   => 'Changes saved successfully',
     'saved_successfully'                         => 'Record saved successfully',
-    'deleted_successfully'                       => 'Record deleted successfully',
+    'deleted_successfully'                       => 'Record will be deleted in a moment',
     'notification'                               => 'Notification',
     'sent_successfully'                          => 'Sent Successfully',
     'data_imported'                              => 'Data imported Successfully',
@@ -850,4 +850,5 @@ return [
     'disable_feedback'                           => 'Disable feedback request',
     'schedule_update'                            => 'Schedule Update',
     'test_email'                                 => 'Test Email',
+    'invoice_cancelled_successfully'             => 'Invoice Cancelled successfully',
 ];

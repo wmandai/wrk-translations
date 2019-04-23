@@ -849,4 +849,5 @@ return [
     'next_followup'                              => 'Next follow-up',
     'schedule_update'                            => 'Schedule Update',
     'test_email'                                 => 'Test Email',
+    'invoice_cancelled_successfully'             => 'Invoice Cancelled successfully',
 ];
