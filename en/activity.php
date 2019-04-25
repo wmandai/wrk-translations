@@ -70,5 +70,6 @@ return [
     'activity_invoice_final_reminder'  => 'Final reminder for invoice :value1 sent to :value2',
     'activity_delete_payment'          => 'Transaction valued at :value1 for invoice :value2 was deleted',
     'activity_delete_ticket'           => 'Ticket :value1 was deleted',
+    'activity_delete_task'             => 'Task :value1 with logged time :value2 was deleted',
 
 ];

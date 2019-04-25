@@ -851,4 +851,8 @@ return [
     'schedule_update'                            => 'Schedule Update',
     'test_email'                                 => 'Test Email',
     'invoice_cancelled_successfully'             => 'Invoice Cancelled successfully',
+    'csv_best_match_selected'                    => 'The best match to each field on the selected file have been auto-selected.',
+    'service_contract'                           => 'Service Contract',
+    'contract_expired'                           => 'Contract expired on :date',
+    'expense_hidden_from_client'                 => 'Expense :code is hidden from client',
 ];
