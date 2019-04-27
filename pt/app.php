@@ -860,5 +860,15 @@ return [
     'service_contract'                           => 'Service Contract',
     'contract_expired'                           => 'Contract expired on :date',
     'expense_hidden_from_client'                 => 'Expense :code is hidden from client',
+    'appointment'                                => 'Appointment',
+    'custom_field_warning'                       => 'Do not use the same Form Label',
+    'feedback_for_ticket'                        => 'Customer Satisfaction for Ticket :subject',
+    'how_would_you_rate_support'                 => 'How would you rate the support you received?',
+    'satisfied'                                  => 'Good, I\'m satisfied',
+    'unsatisfied'                                => 'Bad, I\'m unsatisfied',
+    'feedback_comment'                           => 'Add a comment about the quality of support you received.',
+    '2fa_authentication'                         => '2FA Authentication',
+    'enter_auth_code'                            => 'Please enter an authentication code below:',
+    'reset_2fa'                                  => 'Reset 2FA',
 
 ];
