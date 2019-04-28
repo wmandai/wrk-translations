@@ -873,4 +873,13 @@ return [
     '2fa_authentication'                         => '2FA Authentication',
     'enter_auth_code'                            => 'Please enter an authentication code below:',
     'reset_2fa'                                  => 'Reset 2FA',
+    'holiday_enabled'                            => 'Holiday Enabled! You are currently on holiday mode.',
+    'do_not_contact_me'                          => 'Do not contact me forever',
+    'delete_account_permanent'                   => 'Delete my account permanently',
+    'danger_zone'                                => 'DANGER ZONE - GDPR',
+    'receive_sms_notification'                   => 'Receive SMS Notifications',
+    'receive_broadcast_notification'             => 'Receive Broadcast Notifications',
+    'receive_mail_notifications'                 => 'Receive Mail Notifications',
+    'receive_slack_notifications'                => 'Receive Slack Notifications',
+    'authorization'                              => 'Authorization',
 ];
