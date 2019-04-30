@@ -144,6 +144,15 @@ return [
             'subject'  => 'New Lead Comment',
             'body'     => 'Lead :name has received a new comment',
         ],
+        'consent'   => [
+            'greeting' => 'Dear :name,',
+            'body'     => [
+                'p1' => 'You recently registered your contact details with :company.',
+                'p2' => 'We value your privacy and need to obtain your consent in order to continue to send you email regarding our products and services.',
+                'p3' => 'Please click Accept Consent button to confirm your consent to receiving email marketing messages from us.',
+                'p4' => 'At any time you can click ** [Decline](:url) ** to stop receiving emails from **:company**',
+            ],
+        ],
     ],
     'credits'       => [
         'sending' => [
@@ -339,6 +348,20 @@ return [
             'greeting' => 'Hi :name,',
             'subject'  => '[:code] :subject',
             'body'     => 'Issue :subject (:code) has received a new comment',
+        ],
+    ],
+    'gdpr'          => [
+        'import' => [
+            'greeting' => 'Hello :name',
+            'body'     => 'Your data is ready, check the attached file.',
+            'footer'   => 'Thanks,',
+        ],
+    ],
+    'extras'        => [
+        'invite' => [
+            'greeting' => 'Hello',
+            'body'     => 'We\'ve invited you to join us so you could view progress, upload files, create tasks, participate in discussions and more.',
+            'button'   => 'Click the button below to setup your account and get started.',
         ],
     ],
 ];

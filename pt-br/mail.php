@@ -17,20 +17,20 @@ return [
                 'subject'  => 'Lembrete: Você tem uma fatura e atraso',
                 'greeting' => 'Olá :name,',
                 'body'     => 'Este é um lembrete amigável para você saber que a fatura :code está em atraso.
-				Se você já efetuou o pagamento, desconsidere esta mensagem. Caso contrário, agradecemos sua atenção imediata a esse assunto.',
+                Se você já efetuou o pagamento, desconsidere esta mensagem. Caso contrário, agradecemos sua atenção imediata a esse assunto.',
             ],
             'reminder2' => [
                 'subject'  => 'Segundo Lembrete da fatura [:invoice]',
                 'greeting' => 'Olá :name,',
                 'body'     => 'Nossos registros mostram que ainda não recebemos o pagamento da fatura :invoice com o valor de :balance, que está vencida desde :date.
-				Se o pagamento já tiver sido enviado, desconsidere este aviso. E se você perdeu a fatura, avise-nos e teremos prazer em enviar outra cópia para você.',
+                Se o pagamento já tiver sido enviado, desconsidere este aviso. E se você perdeu a fatura, avise-nos e teremos prazer em enviar outra cópia para você.',
             ],
             'reminder3' => [
                 'subject'  => 'Último Lembrete da fatura [:code]',
                 'greeting' => 'Olá :name,',
                 'body'     => 'Este é o último lembrete de cobrança para a fatura :code no valor de :balance que está vencida desde o dia :date.
-				Tenha em atenção que, de acordo com os nossos termos, poderemos cobrar-lhe uma taxa de atraso adicional no pagamento recebido após a data de vencimento da fatura, ou até mesmo a suspensão dos serviços prestados.
-				Entre em contato se você tiver alguma dúvida sobre esse pagamento. Caso contrário, por favor, organize para liquidação desta fatura imediatamente.',
+                Tenha em atenção que, de acordo com os nossos termos, poderemos cobrar-lhe uma taxa de atraso adicional no pagamento recebido após a data de vencimento da fatura, ou até mesmo a suspensão dos serviços prestados.
+                Entre em contato se você tiver alguma dúvida sobre esse pagamento. Caso contrário, por favor, organize para liquidação desta fatura imediatamente.',
             ],
 
         ],
@@ -38,7 +38,7 @@ return [
             'greeting' => 'Olá :name,',
             'subject'  => 'Seu pagamento para a empresa :company está atrasado a :days dias',
             'body'     => 'Apenas um lembrete de que lhe enviamos uma fatura **:code** no dia **:date**, que venceu a **:days dias**.
-			Você pode clicar e pagar rapidamente com um cartão de crédito, fazer uma trasferência ou entrar em contato conosco.',
+            Você pode clicar e pagar rapidamente com um cartão de crédito, fazer uma trasferência ou entrar em contato conosco.',
             'footer'   => 'Obrigado antecipadamente por um pagamento que será realizado, isso significa muito. Deixe-nos saber se você tem alguma dúvida sobre a fatura.',
         ],
     ],
@@ -127,6 +127,15 @@ return [
             'subject'  => 'Novo comentário de lead',
             'body'     => 'O Lead :name recebeu um novo comentário',
         ],
+        'consent'   => [
+            'greeting' => 'Dear :name,',
+            'body'     => [
+                'p1' => 'You recently registered your contact details with :company.',
+                'p2' => 'We value your privacy and need to obtain your consent in order to continue to send you email regarding our products and services.',
+                'p3' => 'Please click Accept Consent button to confirm your consent to receiving email marketing messages from us.',
+                'p4' => 'At any time you can click ** [Decline](:url) ** to stop receiving emails from **:company**',
+            ],
+        ],
     ],
     'credits'       => [
         'sending' => [
@@ -168,7 +177,7 @@ return [
             'greeting' => 'Olá :name,',
             'heading'  => 'Como você avaliaria a gente?',
             'body'     => 'Por favor, conte-nos sobre sua experiência no projeto :project.
-			Seus comentários nos ajudam a criar uma experiência melhor para você e para todos os nossos clientes.',
+            Seus comentários nos ajudam a criar uma experiência melhor para você e para todos os nossos clientes.',
             'footer'   => 'Obrigado,',
         ],
         'commented' => [
@@ -200,7 +209,7 @@ return [
             'greeting' => 'Olá :name,',
             'subject'  => '[:code] Re: :subject',
             'body'     => 'O Ticket :subject foi aberto.
-			Você pode ver o ticket usando o link abaixo;',
+            Você pode ver o ticket usando o link abaixo;',
         ],
         'replied'  => [
             'greeting' => 'Olá :name,',
@@ -212,14 +221,14 @@ return [
             'greeting' => 'Olá :name,',
             'subject'  => 'Ticket Atribuído',
             'body'     => 'Um novo ticket :subject foi atribuído à você.
-			Clique no link abaixo para ver o ticket.',
+            Clique no link abaixo para ver o ticket.',
             'footer'   => 'Obrigado,',
         ],
         'closed'   => [
             'greeting' => 'Olá :name,',
             'subject'  => '[:code] Re: :subject',
             'body'     => 'O Ticket :subject foi marcado como fechado.
-			Se você achar que o incidente não foi resolvido, responda a este e-mail ou reabra o incidente.',
+            Se você achar que o incidente não foi resolvido, responda a este e-mail ou reabra o incidente.',
             'footer'   => 'Obrigado,',
         ],
         'survey'   => [
@@ -227,7 +236,7 @@ return [
             'subject'  => 'Avaliação do suporte #:code',
             'heading'  => 'Como você avaliaria o suporte recebido?',
             'body'     => 'A Equipe da :company ama ouvir o que você pensa do nosso serviço ao cliente.
-			Por favor, dedique um momento para responder uma pergunta simples clicando no link abaixo:',
+            Por favor, dedique um momento para responder uma pergunta simples clicando no link abaixo:',
             'footer'   => 'Obrigado,',
         ],
         'answer'   => [
@@ -254,7 +263,7 @@ return [
             'greeting' => 'Olá :contact,',
             'subject'  => 'Solicitação de Assinaturas',
             'body'     => 'Nós preparamos a assinatura :name para sua empresa.
-			Clique no botão abaixo para revisar a assinatura e se inscrever.',
+            Clique no botão abaixo para revisar a assinatura e se inscrever.',
             'footer'   => 'Atenciosamente',
         ],
     ],
@@ -324,6 +333,20 @@ return [
             'greeting' => 'Olá :name,',
             'subject'  => '[:code] :subject',
             'body'     => 'Bug :subject (:code) recebeu um novo comentário',
+        ],
+    ],
+    'gdpr'          => [
+        'import' => [
+            'greeting' => 'Hello :name',
+            'body'     => 'Your data is ready, check the attached file.',
+            'footer'   => 'Thanks,',
+        ],
+    ],
+    'extras'        => [
+        'invite' => [
+            'greeting' => 'Hello',
+            'body'     => 'We\'ve invited you to join us so you could view progress, upload files, create tasks, participate in discussions and more.',
+            'button'   => 'Click the button below to setup your account and get started.',
         ],
     ],
 ];
