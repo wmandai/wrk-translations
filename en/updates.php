@@ -17,7 +17,7 @@ return [
     'file'                           => 'File',
     'commands_successfully_executed' => 'Commands successfully executed.',
     'error_during_command_execution' => ' Error during commands execution.',
-    'could_not_save_update'          => 'Could not save new update (check /storage/app/tmp/ write permission). Update aborted.',
+    'could_not_save_update'          => 'Could not save new update (check /storage/app/updates/tmp/ write permission). Update aborted.',
     'failed'                         => 'Failed',
     'backup_folder_located_in'       => 'Backup folder is located in:',
     'restore_system_command'         => 'Deactivate maintenance mode manually using',

@@ -240,6 +240,12 @@ return [
             'body'     => 'A new ticket :subject has been assigned to you.',
             'footer'   => 'Thank You,',
         ],
+        'status'   => [
+            'greeting' => 'Hi :name,',
+            'subject'  => '[:code] Re: :subject',
+            'body'     => 'Ticket :subject has changed status to :status',
+            'footer'   => 'Thank you for choosing :company',
+        ],
         'closed'   => [
             'greeting' => 'Hi :name,',
             'subject'  => '[:code] Re: :subject',

@@ -234,6 +234,12 @@ return [
             'body'     => 'Ticket :code has received a new response.',
             'footer'   => 'To update your ticket, please reply directly to this e-mail or visit:',
         ],
+        'status'   => [
+            'greeting' => 'Hi :name,',
+            'subject'  => '[:code] Re: :subject',
+            'body'     => 'Ticket :subject has changed status to :status',
+            'footer'   => 'Thank you for choosing :company',
+        ],
         'assigned' => [
             'greeting' => 'Hi :name,',
             'subject'  => 'Ticket Assigned',

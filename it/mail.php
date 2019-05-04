@@ -247,6 +247,12 @@ return [
                     If you feel the incident is not resolved, you can reply via email or reopen the incident.',
             'footer'   => 'Thank You,',
         ],
+        'status'   => [
+            'greeting' => 'Hi :name,',
+            'subject'  => '[:code] Re: :subject',
+            'body'     => 'Ticket :subject has changed status to :status',
+            'footer'   => 'Thank you for choosing :company',
+        ],
         'survey'   => [
             'greeting' => 'Hello :name,',
             'subject'  => 'Request #:code',
