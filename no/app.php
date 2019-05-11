@@ -663,8 +663,8 @@ return [
     'vendor'                                     => 'Vendor',
     'notification_channels'                      => 'Notification Channels',
     'convert_to_task'                            => 'Convert to Task',
-    'cookie_consent_message'                     => 'This website uses cookies to ensure you get the best experience on our website',
-    'cookie_consent_agree'                       => 'Got it!',
+    'cookie_consent_message'                     => 'Vi bruker informasjonskapsler (cookies) som lagres i nettleseren din når du besøker nettsiden vår. Ved å fortsette å besøke nettsiden vår eller bruke tjenestene våre, godtar du at vi bruker informasjonskapsler.',
+    'cookie_consent_agree'                       => 'Jeg forstår',
     'billing_method'                             => 'Billing Method',
     'automatic_reminders'                        => 'Auto Reminders',
     'amount_in_words'                            => 'Show amount in words',
@@ -920,5 +920,12 @@ return [
     'pay_any_amount'                             => 'Pay any amount. Please note failure to pay minimum due amount may result in late fee.',
     'time_entries_marked_as_billed'              => 'All billable time entries will be marked as billed',
     'use_start_end_dates'                        => 'Use Start and End Dates',
+    'holiday_mode_enabled'                       => 'Holiday mode enabled successfully',
+    'holiday_mode_disabled'                      => 'Holiday mode deactivated',
+    'enable_holiday'                             => 'On Holiday',
+    'disable_holiday'                            => 'Disable Holiday',
+    'enable_holiday_mode'                        => 'Enable holiday mode',
+    'disable_holiday_mode'                       => 'Disable holiday mode',
+    'next_followup'                              => 'Next follow-up',
 
 ];

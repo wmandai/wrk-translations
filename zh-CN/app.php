@@ -920,5 +920,11 @@ return [
     'pay_any_amount'                             => 'Pay any amount. Please note failure to pay minimum due amount may result in late fee.',
     'time_entries_marked_as_billed'              => 'All billable time entries will be marked as billed',
     'use_start_end_dates'                        => 'Use Start and End Dates',
-
+    'holiday_mode_enabled'                       => 'Holiday mode enabled successfully',
+    'holiday_mode_disabled'                      => 'Holiday mode deactivated',
+    'enable_holiday'                             => 'On Holiday',
+    'disable_holiday'                            => 'Disable Holiday',
+    'enable_holiday_mode'                        => 'Enable holiday mode',
+    'disable_holiday_mode'                       => 'Disable holiday mode',
+    'next_followup'                              => 'Next follow-up',
 ];

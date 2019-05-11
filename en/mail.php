@@ -49,7 +49,7 @@ return [
     ],
     'estimates'     => [
         'sending'   => [
-            'subject'  => 'New Estimate from :company [:estimate]',
+            'subject'  => 'New Estimate from :company',
             'greeting' => 'Dear :name,',
             'body'     => 'We have created an estimate for you in the amount of :amount for you to review. If you have any questions, feel free to contact us. ',
         ],

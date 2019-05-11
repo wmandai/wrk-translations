@@ -142,7 +142,7 @@ return [
     'payments_received'                          => 'Payments Received',
     'paypal_live'                                => 'PayPal Live',
     'paypal_redirection_alert'                   => 'Your payment will be processed via PayPal!',
-    'pay_invoice'                                => 'Pay Invoice',
+    'pay_invoice'                                => 'Pay',
     'phone'                                      => 'Phone',
     'privacy_policy'                             => 'Privacy Policy',
     'price'                                      => 'Price',
@@ -806,7 +806,7 @@ return [
     'feedback_request'                           => 'Feedback Request',
     'feedback_request_help'                      => 'When a ticket is closed, send feedback request after X days. Zero means disabled',
     'social_login'                               => 'Social Logins',
-    'autoremind_invoices'                        => 'Send Overdue Emails',
+    'autoremind_invoices'                        => 'Invoice Reminders',
     'remind_invoices_before'                     => 'Upcoming reminders',
     'remind_estimates_before'                    => 'Expiry Reminder',
     'ticket_due_after'                           => 'Ticket Due Days',
@@ -915,4 +915,5 @@ return [
     'pay_any_amount'                             => 'Pay any amount. Please note failure to pay minimum due amount may result in late fee.',
     'time_entries_marked_as_billed'              => 'All billable time entries will be marked as billed',
     'use_start_end_dates'                        => 'Use Start and End Dates',
+    'cookie_consent'                             => 'Cookie Consent',
 ];
