@@ -22,7 +22,7 @@ return [
             'reminder2' => [
                 'subject'  => 'Segundo Lembrete da fatura [:invoice]',
                 'greeting' => 'Olá :name,',
-                'body'     => 'Nossos registros mostram que ainda não recebemos o pagamento da fatura :invoice com o valor de :balance, que está vencida desde :date.
+                'body'     => 'Nossos registros mostram que ainda não recebemos o pagamento da fatura :code com o valor de :balance, que está vencida desde :date.
                 Se o pagamento já tiver sido enviado, desconsidere este aviso. E se você perdeu a fatura, avise-nos e teremos prazer em enviar outra cópia para você.',
             ],
             'reminder3' => [

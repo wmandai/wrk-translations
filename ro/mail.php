@@ -22,7 +22,7 @@ return [
             'reminder2' => [
                 'subject'  => 'Reminder: You\'ve got a payment that is overdue',
                 'greeting' => 'Hey :name,',
-                'body'     => 'Our records show that we haven’t yet received payment of :balance for Invoice :invoice , which is overdue since :date.
+                'body'     => 'Our records show that we haven’t yet received payment of :balance for Invoice :code , which is overdue since :date.
                     If the payment has already been sent, please disregard this notice. And if you’ve lost this invoice, please let me know, and I’d be happy to send you another copy.',
             ],
             'reminder3' => [
