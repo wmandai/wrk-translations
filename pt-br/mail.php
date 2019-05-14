@@ -338,21 +338,21 @@ return [
         'commented' => [
             'greeting' => 'Olá :name,',
             'subject'  => '[:code] :subject',
-            'body'     => 'Bug :subject (:code) recebeu um novo comentário',
+            'body'     => 'O Bug :subject (:code) recebeu um novo comentário',
         ],
     ],
     'gdpr'          => [
         'import' => [
-            'greeting' => 'Hello :name',
-            'body'     => 'Your data is ready, check the attached file.',
-            'footer'   => 'Thanks,',
+            'greeting' => 'Olá :name',
+            'body'     => 'Seus dados estão prontos, verifique o arquivo anexado.',
+            'footer'   => 'Obrigado,',
         ],
     ],
     'extras'        => [
         'invite' => [
-            'greeting' => 'Hello',
-            'body'     => 'We\'ve invited you to join us so you could view progress, upload files, create tasks, participate in discussions and more.',
-            'button'   => 'Click the button below to setup your account and get started.',
+            'greeting' => 'Olá',
+            'body'     => 'Convidamos você a se juntar a nós para ver o progresso, fazer upload de arquivos, criar tarefas, participar de discussões e muito mais.',
+            'button'   => 'Clique no botão abaixo para configurar sua conta e começar.',
         ],
     ],
 ];

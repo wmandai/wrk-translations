@@ -65,8 +65,8 @@ return [
     'activity_viewed_estimate'         => 'Orçamento :value1 foi visto pelo cliente',
     'activity_update_setting'          => 'Definições de configuração de aplicativo modificadas',
     'activity_delete_issue'            => 'O bug :value1 foi deletado no projeto :value2',
-    'activity_invoice_polite_reminder' => 'Polite reminder for invoice :value1 sent to :value2',
-    'activity_invoice_firm_reminder'   => 'Second reminder for invoice :value1 sent to :value2',
-    'activity_invoice_final_reminder'  => 'Final reminder for invoice :value1 sent to :value2',
-    'activity_delete_ticket'           => 'Ticket :value1 was deleted',
+    'activity_invoice_polite_reminder' => 'Lembrete para fatura :value1 enviado para :value2',
+    'activity_invoice_firm_reminder'   => 'Segundo lembrete para fatura :value1 para :value2',
+    'activity_invoice_final_reminder'  => 'Lembrete final da fatura :value1 para :value2',
+    'activity_delete_ticket'           => 'O Ticket :value1 foi excluído',
 ];
