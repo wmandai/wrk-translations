@@ -919,5 +919,6 @@ return [
     'enable_holiday_mode'                        => 'Enable holiday mode',
     'disable_holiday_mode'                       => 'Disable holiday mode',
     'next_followup'                              => 'Next follow-up',
+    'receive_app_notifications'                  => 'Receive web notifications',
 
 ];

@@ -916,4 +916,5 @@ return [
     'time_entries_marked_as_billed'              => 'All billable time entries will be marked as billed',
     'use_start_end_dates'                        => 'Use Start and End Dates',
     'cookie_consent'                             => 'Cookie Consent',
+    'receive_app_notifications'                  => 'Receive web notifications',
 ];

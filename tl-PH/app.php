@@ -914,4 +914,5 @@ return [
     'pay_any_amount'                             => 'Pay any amount. Please note failure to pay minimum due amount may result in late fee.',
     'time_entries_marked_as_billed'              => 'All billable time entries will be marked as billed',
     'use_start_end_dates'                        => 'Use Start and End Dates',
+    'receive_app_notifications'                  => 'Receive web notifications',
 ];
