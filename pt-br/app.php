@@ -927,5 +927,5 @@ return [
     'enable_holiday_mode'                        => 'Ativar modo de férias',
     'disable_holiday_mode'                       => 'Desativar modo de férias',
     'next_followup'                              => 'Seguimento seguinte',
-    'receive_app_notifications'                  => 'Receive web notifications',
+    'receive_app_notifications'                  => 'Receber notificações da web',
 ];
