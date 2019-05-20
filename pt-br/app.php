@@ -761,7 +761,7 @@ return [
     'marketing'                                  => 'Marketing',
     'accounts'                                   => 'Contas',
     'convert_to_project'                         => 'Converter para Projeto',
-    'archive_invoice'                            => 'Aruivar Fatura',
+    'archive_invoice'                            => 'Arquivar Fatura',
     'final_reminder_late_fee'                    => 'Taxa atrasada no último lembrete',
     'products'                                   => 'Produtos',
     'prospects'                                  => 'Perspectivas',
