@@ -72,5 +72,6 @@ return [
     'activity_delete_ticket'           => 'Ticket :value1 was deleted',
     'activity_delete_task'             => 'Task :value1 with logged time :value2 was deleted',
     'activity_update_user'             => 'User :value1 was updated',
+    'activity_create_todo'             => 'Todo :value1 created',
 
 ];

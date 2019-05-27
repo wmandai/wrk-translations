@@ -214,6 +214,11 @@ return [
             'subject'  => 'Comment Received',
             'body'     => 'Task :name has received a new comment',
         ],
+        'created' => [
+            'greeting' => 'Hi :name,',
+            'subject'  => 'New Task',
+            'body'     => 'You have been assigned a new task :name',
+        ],
     ],
     'tickets'       => [
         'created'  => [

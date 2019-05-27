@@ -197,6 +197,11 @@ return [
             'subject'  => 'Comentário Recebido',
             'body'     => 'Tarefa :name recebeu um novo comentário',
         ],
+        'created' => [
+            'greeting' => 'Hi :name,',
+            'subject'  => 'New Task',
+            'body'     => 'You have been assigned a new task :name',
+        ],
     ],
     'tickets'       => [
         'created'  => [

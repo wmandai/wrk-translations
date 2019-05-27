@@ -69,4 +69,5 @@ return [
     'activity_invoice_firm_reminder'   => 'Segundo lembrete para fatura :value1 para :value2',
     'activity_invoice_final_reminder'  => 'Lembrete final da fatura :value1 para :value2',
     'activity_delete_ticket'           => 'O Ticket :value1 foi excluído',
+    'activity_create_todo'             => 'Todo :value1 created',
 ];
