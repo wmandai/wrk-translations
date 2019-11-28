@@ -160,6 +160,11 @@ return [
             'greeting' => 'Dear Customer,',
             'body'     => 'New credit note (:code) created.',
         ],
+        'commented' => [
+            'greeting' => 'Dear Customer,',
+            'subject'  => 'Comment Received',
+            'body'     => 'Credit Note :name has received a new comment',
+        ],
     ],
     'contracts'     => [
         'reminder' => [
@@ -190,7 +195,7 @@ return [
     ],
     'projects'      => [
         'survey'    => [
-            'subject'  => 'Feedback Request',
+            'subject'  => 'Feedback Request - :project',
             'greeting' => 'Hello :name,',
             'heading'  => 'How would you rate us?',
             'body'     => 'Please tell us about your experience on project :project.
@@ -199,8 +204,14 @@ return [
         ],
         'commented' => [
             'greeting' => 'Hi :name,',
-            'subject'  => 'Comment Received',
+            'subject'  => 'New Comment Received - :project',
             'body'     => 'Project :name has received a new comment',
+        ],
+        'assigned' => [
+            'greeting' => 'Hi :name,',
+            'subject'  => 'Project Assignment - :project',
+            'body'     => 'A new project :name has been assigned to you.',
+            'footer'   => 'Thank You,',
         ],
     ],
     'tasks'         => [
@@ -211,12 +222,12 @@ return [
         ],
         'commented' => [
             'greeting' => 'Hi :name,',
-            'subject'  => 'Comment Received',
+            'subject'  => 'New Comment Received - :project',
             'body'     => 'Task :name has received a new comment',
         ],
         'created' => [
             'greeting' => 'Hi :name,',
-            'subject'  => 'New Task',
+            'subject'  => 'New Task - :project',
             'body'     => 'You have been assigned a new task :name',
         ],
     ],
@@ -249,7 +260,7 @@ return [
             'greeting' => 'Hi :name,',
             'subject'  => '[:code] Re: :subject',
             'body'     => 'Ticket :subject has been marked as closed.
-                    If you feel the incident is not resolved, you can reply via email or reopen the incident.',
+                    If you feel the incident is not resolved, you can reply via email or reopen the ticket.',
             'footer'   => 'Thank You,',
         ],
         'status'   => [

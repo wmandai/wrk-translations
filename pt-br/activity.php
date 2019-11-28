@@ -2,17 +2,6 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Application Language Files
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    |
-     */
-
     'lead_contacted'                   => 'E-mail enviado para :value1 via :value2',
     'activity_create_comment'          => 'Novo comentário postado em  :value1',
     'activity_update_invoice'          => 'Fatura :value1 para o cliente :value2 foi atualizada',
@@ -70,4 +59,9 @@ return [
     'activity_invoice_final_reminder'  => 'Lembrete final da fatura :value1 para :value2',
     'activity_delete_ticket'           => 'O Ticket :value1 foi excluído',
     'activity_create_todo'             => 'Todo :value1 created',
+    'activity_delete_project'          => 'Project :value1 with cost :value2 was deleted',
+    'activity_delete_expense'          => 'Expense :value1 with cost :value2 was deleted',
+    'activity_delete_deal'             => 'Deal :value1 for client :value2 was deleted',
+    'activity_delete_lead'             => 'Lead :value1 from source :value2 was deleted',
+
 ];

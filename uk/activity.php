@@ -2,17 +2,6 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Application Language Files
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    |
-     */
-
     'lead_contacted'                   => 'Email sent to :value1 via :value2',
     'activity_create_comment'          => 'New comment posted to  :value1',
     'activity_update_invoice'          => 'Invoice :value1 for client :value2 was updated',
@@ -70,4 +59,9 @@ return [
     'activity_invoice_final_reminder'  => 'Final reminder for invoice :value1 sent to :value2',
     'activity_delete_ticket'           => 'Ticket :value1 was deleted',
     'activity_create_todo'             => 'Todo :value1 created',
+    'activity_delete_project'          => 'Project :value1 with cost :value2 was deleted',
+    'activity_delete_expense'          => 'Expense :value1 with cost :value2 was deleted',
+    'activity_delete_deal'             => 'Deal :value1 for client :value2 was deleted',
+    'activity_delete_lead'             => 'Lead :value1 from source :value2 was deleted',
+
 ];

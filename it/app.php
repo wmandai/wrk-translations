@@ -1,11 +1,6 @@
 <?php
-/*
-|--------------------------------------------------------------------------
-| Application Language Lines
-|--------------------------------------------------------------------------
-|
-| The following language lines are used system wide
-|
+/**
+ * Italian Language
  */
 return [
 
@@ -170,7 +165,7 @@ return [
     'received_amount'                            => 'Importo Ricevuto',
     'received_from'                              => 'Ricevuto Da',
     'recipient'                                  => 'Destinatario',
-    'reference_no'                               => 'Riferimento n°',
+    'reference_no'                               => 'Riferimento°',
     'resolved'                                   => 'Risolto',
     'role'                                       => 'Ruolo',
     'save'                                       => 'Salva',
@@ -197,7 +192,7 @@ return [
     'system_settings'                            => 'Preferenze sistema',
     'task_name'                                  => 'Nome Incarico',
     'tasks'                                      => 'Incarico',
-    'tax'                                        => 'Tassa',
+    'tax'                                        => 'Imposta',
     'time_entry'                                 => 'Annota Tempo',
     'timer_started'                              => 'Timer Avviato',
     'timer_off'                                  => 'Timer OFF',
@@ -213,7 +208,7 @@ return [
     'type_comment_here'                          => 'Inserisci un commento qui.',
     'unread'                                     => 'Non letto',
     'unconfirmed'                                => 'Non confermato',
-    'unit_price'                                 => 'Costo unitario',
+    'unit_price'                                 => 'Prezzo',
     'username'                                   => 'Username',
     'users'                                      => 'Utenti',
     'user'                                       => 'Utente',
@@ -267,7 +262,7 @@ return [
     'invoice_language'                           => 'Lingua Fattura',
     'date_format'                                => 'Formato Data',
     'discount'                                   => 'Sconto',
-    'disc'                                       => 'Disc.',
+    'disc'                                       => 'Sconto',
     'send_email'                                 => 'Invia Email',
     'recur_frequency'                            => 'Frequenza Ricorrenza',
     'preview'                                    => 'Anteprima',
@@ -393,8 +388,8 @@ return [
     'activate'                                   => 'Attiva',
     'type'                                       => 'Tipo',
     'inbox'                                      => 'Inbox',
-    'from'                                       => 'Da',
-    'to'                                         => 'a',
+    'from'                                       => 'Nostre informazioni',
+    'to'                                         => 'Fatturazione per',
     'accepted'                                   => 'Accettato',
     'declined'                                   => 'Rifiutato',
     'page'                                       => 'Pagina',
@@ -788,7 +783,7 @@ return [
     'modules'                                    => 'Modules',
     'reminders'                                  => 'Reminders',
     'client_has_balance'                         => 'Client has a balance of :balance',
-    'product'                                    => 'Product',
+    'product'                                    => 'Prodotto',
     'creditnote_color'                           => 'Creditnote Color',
     'creditnote_footer'                          => 'Creditnote Footer',
     'rejected'                                   => 'Rejected',
@@ -889,7 +884,6 @@ return [
     'request_failed'                             => 'Request failed or not authorized. Please contact administrator',
     'try_again'                                  => 'Try Again',
     'csv_file'                                   => 'CSV File',
-    'notifications'                              => 'Notifications',
     'stop_impersonate'                           => 'Stop Impersonate',
     'enter_purchase_code'                        => 'Enter your license key to continue using ',
     'accept_consent'                             => 'Accept Consent',
@@ -954,5 +948,34 @@ return [
     'weekly'                                     => 'Weekly',
     'income'                                     => 'Income',
     'average'                                    => 'Average',
-
+    'increment_invoice_number'                   => 'Increment Invoice Number',
+    'receive_whatsapp_notification'              => 'Receive WhatsApp notifications',
+    'leads_email'                                => 'Leads Email',
+    'leads_email_name'                           => 'Leads Email Name',
+    'support_email'                              => 'Support Email',
+    'support_email_name'                         => 'Support Name',
+    'ref_digits'                                 => 'Reference Digits',
+    'whatsapp_enabled'                           => 'WhatsApp Enabled',
+    'whatsapp_subscribe_message'                 => 'Stay updated on WhatsApp. Send the word :subtext to :number',
+    'whatsapp_subscribe_reply'                   => 'Do you want to receive WhatsApp notifications from :company? Reply with :subtext',
+    'whatsapp_subscribe_text_sent'               => 'WhatsApp subscription message sent',
+    'sms_driver'                                 => 'SMS Driver',
+    'reminder_for'                               => 'Reminder for :reminder',
+    'verify'                                     => 'Verify',
+    'hot'                                        => 'Hot',
+    'warm'                                       => 'Warm',
+    'cold'                                       => 'Cold',
+    'call_via_aircall'                           => 'Call via Aircall.io',
+    'partial_payments'                           => 'Partial Payments',
+    'merge'                                      => 'Merge',
+    'merge_successful'                           => 'Merged successfully',
+    'private_notes'                              => 'Private Notes',
+    'contractor'                                 => 'Contractor',
+    'billing_time'                               => 'Billing Time',
+    'timecards'                                  => 'Timecards',
+    'show_invoice_item_discount'                 => 'Show Invoice Items discount',
+    'show_estimate_item_discount'                => 'Show Estimate Items discount',
+    'show_tax_number'                            => 'Show Tax Number',
+    'single_line'                                => 'Single Line',
+    'task_per_line'                              => 'Task Per Line',
 ];

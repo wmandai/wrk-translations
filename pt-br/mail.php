@@ -138,10 +138,15 @@ return [
         ],
     ],
     'credits'       => [
-        'sending' => [
+        'sending'   => [
             'subject'  => 'Nova nota de crédito para :company',
             'greeting' => 'Prezado cliente,',
             'body'     => 'Nova nota de crédito (:code) criada.',
+        ],
+        'commented' => [
+            'greeting' => 'Dear Customer,',
+            'subject'  => 'Comment Received',
+            'body'     => 'Credit Note :name has received a new comment',
         ],
     ],
     'contracts'     => [
@@ -185,6 +190,12 @@ return [
             'subject'  => 'Comentário Recebido',
             'body'     => 'O Projeto :name recebeu um novo comentário',
         ],
+        'assigned'  => [
+            'greeting' => 'Hi :name,',
+            'subject'  => 'Project Assignment Notification',
+            'body'     => 'A new project :name has been assigned to you.',
+            'footer'   => 'Thank You,',
+        ],
     ],
     'tasks'         => [
         'reminder'  => [
@@ -197,7 +208,7 @@ return [
             'subject'  => 'Comentário Recebido',
             'body'     => 'Tarefa :name recebeu um novo comentário',
         ],
-        'created' => [
+        'created'   => [
             'greeting' => 'Hi :name,',
             'subject'  => 'New Task',
             'body'     => 'You have been assigned a new task :name',

@@ -69,4 +69,8 @@ return [
     'activity_invoice_firm_reminder'   => 'Second reminder for invoice :value1 sent to :value2',
     'activity_invoice_final_reminder'  => 'Final reminder for invoice :value1 sent to :value2',
     'activity_create_todo'             => 'Todo :value1 created',
+    'activity_delete_project'          => 'Project :value1 with cost :value2 was deleted',
+    'activity_delete_expense'          => 'Expense :value1 with cost :value2 was deleted',
+    'activity_delete_deal'             => 'Deal :value1 for client :value2 was deleted',
+    'activity_delete_lead'             => 'Lead :value1 from source :value2 was deleted',
 ];
