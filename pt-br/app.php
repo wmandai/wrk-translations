@@ -1,6 +1,11 @@
 <?php
-/**
- * Portuguese Brasil
+/*
+|--------------------------------------------------------------------------
+| Application Language Lines
+|--------------------------------------------------------------------------
+|
+| The following language lines are used system wide
+|
  */
 return [
 
@@ -884,6 +889,7 @@ return [
     'request_failed'                             => 'Pedido falhou ou não foi autorizado. Por favor contate o administrador',
     'try_again'                                  => 'Tente novamente',
     'csv_file'                                   => 'Arquivo CSV',
+    'notifications'                              => 'Notificações',
     'stop_impersonate'                           => 'Parar de representar',
     'enter_purchase_code'                        => 'Digite sua chave de licença para continuar usando ',
     'accept_consent'                             => 'Aceitar o consentimento',
@@ -935,20 +941,20 @@ return [
     'contact_us'                                 => 'Contate-Nos',
     'lead_info_message'                          => 'Estamos aqui para responder a quaisquer perguntas que você possa ter sobre nossos produtos e serviços. Entre em contato conosco e responderemos assim que pudermos',
     'lead_contact_success'                       => 'Obrigado por nos contatar. Nós responderemos a sua pergunta assim que pudermos.',
-    'weblead_recaptcha'                          => 'Lead form ReCaptcha',
-    'lead_form'                                  => 'Lead Form',
-    'verified_at'                                => 'Verified At',
-    'payment_processing'                         => 'Thank you for your payment. We will process it shortly',
+    'weblead_recaptcha'                          => 'ReCaptcha no formulário do Lead',
+    'lead_form'                                  => 'Formulário do Lead',
+    'verified_at'                                => 'Verificado em',
+    'payment_processing'                         => 'Obrigado por seu pagamento. Vamos processá-lo em breve',
     'pagseguro_live'                             => 'Pagseguro Live',
-    'pagseguro_email'                            => 'Pagseguro Email',
-    'pagseguro_token'                            => 'Pagesuro Token',
-    'pagseguro_redirection_alert'                => 'You will be redirected to Pagseguro to complete payment',
-    'invoiced_today'                             => 'Invoiced Today',
-    'paid_today'                                 => 'Paid Today',
-    'weekly'                                     => 'Weekly',
-    'income'                                     => 'Income',
-    'average'                                    => 'Average',
-    'increment_invoice_number'                   => 'Increment Invoice Number',
+    'pagseguro_email'                            => 'E-mail Pagseguro',
+    'pagseguro_token'                            => 'Token Pagesuro',
+    'pagseguro_redirection_alert'                => 'Você será redirecionado para Pagseguro para completar o pagamento',
+    'invoiced_today'                             => 'Faturado hoje',
+    'paid_today'                                 => 'Pago hoje',
+    'weekly'                                     => 'Semanal',
+    'income'                                     => 'Renda',
+    'average'                                    => 'Média',
+        'increment_invoice_number'                   => 'Increment Invoice Number',
     'receive_whatsapp_notification'              => 'Receive WhatsApp notifications',
     'leads_email'                                => 'Leads Email',
     'leads_email_name'                           => 'Leads Email Name',
