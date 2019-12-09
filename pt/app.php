@@ -978,5 +978,6 @@ return [
     'show_tax_number'                            => 'Show Tax Number',
     'single_line'                                => 'Single Line',
     'task_per_line'                              => 'Task Per Line',
+    'phone_short'                                => 'P: ',
 
 ];
