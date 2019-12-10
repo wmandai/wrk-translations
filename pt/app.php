@@ -979,5 +979,7 @@ return [
     'single_line'                                => 'Single Line',
     'task_per_line'                              => 'Task Per Line',
     'phone_short'                                => 'P: ',
+    'annually'                                   => 'Annually',
+    'biennially'                                 => 'Biennially',
 
 ];
